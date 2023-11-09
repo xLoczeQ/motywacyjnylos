@@ -1,0 +1,101 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #f1f1f1;
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+}
+header {
+    background-color: #fff;
+    padding: 25px;
+}
+header li {
+    display: inline;
+    padding-left: 45px;
+}
+header li a {
+    text-decoration: none;
+    padding: 30px;
+    transition: 0.3s ease;
+    margin: -25px;
+}
+header ul #menu a{
+    color: #fff;
+    background-color: red;
+    border-radius: 30px;
+    float: right;
+    position: relative;
+    top: -22px;
+    padding: 13px;
+    margin: 10px;
+}
+#menu .active {
+    background-color: rgb(255, 101, 101);
+}
+header li img {
+    width: 180px;
+    float: left;
+    margin-top: -25px;
+}
+#container {
+    width: 1000px;
+    margin: auto;
+    padding: 10px;
+    background-color: #e8e8e8;
+    height: 600px;
+}
+.cytat {
+    margin: 50px auto;
+    display: block;
+    border-radius: 20px;
+}
+#listaElementow {
+    list-style-type: square;
+}
+#losowanie {
+    text-align: center;
+}
+#losowanie button {
+    padding: 15px 30px;
+    border: none;
+    border-radius: 30px;
+    background-color: red;
+    color: white;
+    font-size: 17px;
+    transition: 0.3s ease-in-out;
+}
+#losowanie button:hover {
+    background-color: rgb(255, 101, 101);
+    cursor: pointer;
+}
+#autorzy {
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    font-weight: bold;
+}
+#autorzy p {
+    border-bottom: 1px solid black;
+}
+.autorzy {
+    margin: 50px auto;
+    display: block;
+    transition: 0.3s ease-in;
+}
+.autorzy:hover {
+    transform: scale(1.2)
+}
+footer {
+    background-color: #fff;
+    padding: 10px;
+    width: 1000px;
+    margin: auto;
+    text-align: center;
+    font-weight: bold;
+}
+.lorem {
+    float: left;
+    width: 30%;
+    margin: auto;
+    padding-left: 32px;
+}
